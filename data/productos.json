@@ -1,0 +1,143 @@
+[{
+        "id": 1,
+        "marca": "SAMSUNG",
+        "imagen": "img/img-productos/samsung.jpg",
+        "precio": "5099",
+        "detalles": ["4 GB RAM", "COLOR BLANCO", "64 GB HDD"]
+    }, {
+        "id": 2,
+        "marca": "ACER",
+        "imagen": "img/img-productos/acer1.jpg",
+        "precio": "3000",
+        "detalles": ["16 GB RAM", "COLOR ROJO", "1 TB HDD"]
+    }, {
+        "id": 3,
+        "marca": "LENOVO",
+        "imagen": "img/img-productos/lenovo4.jpg",
+        "precio": "4000",
+        "detalles": ["8 GB RAM", "COLOR NEGRO", "1 TB HDD"]
+    }, {
+        "id": 4,
+        "marca": "APPLE",
+        "imagen": "img/img-productos/apple.jpg",
+        "precio": "5900",
+        "detalles": ["8 GB RAM", "COLOR ROSA", "128 GB HDD"],
+        "new": true
+    }, {
+        "id": 5,
+        "marca": "HUAWEI",
+        "imagen": "img/img-productos/huawei3.jpg",
+        "precio": "5769",
+        "detalles": ["8 GB RAM", "COLOR PLATEADO", "256 GB SSD"]
+    }, {
+        "id": 6,
+        "marca": "SAMSUNG",
+        "imagen": "img/img-productos/samsung1.jpg",
+        "precio": "2599",
+        "detalles": ["4 GB RAM", "COLOR GRIS", "500 GB HDD"]
+    },
+    {
+        "id": 7,
+        "marca": "ASUS",
+        "imagen": "img/img-productos/asus.jpg",
+        "precio": "1869",
+        "detalles": ["3 GB RAM", "COLOR NEGRO", "64 GB HDD"],
+        "new": true
+    }, {
+        "id": 8,
+        "marca": "LENOVO",
+        "imagen": "img/img-productos/Lenovo3.jpg",
+        "precio": "2300",
+        "detalles": ["4 GB RAM", "COLOR NEGRO", "1 TB HDD"]
+    }, {
+        "id": 9,
+        "marca": "APPLE",
+        "imagen": "img/img-productos/apple1.jpg",
+        "precio": "9100",
+        "detalles": ["8 GB RAM", "COLOR MARINO", "500 GB SSD"]
+
+    }, {
+        "id": 10,
+        "marca": "APPLE",
+        "imagen": "img/img-productos/apple2.jpg",
+        "precio": "3300",
+        "detalles": ["8 GB RAM", "COLOR GRIS", "1 TB HDD"]
+
+    }, {
+        "id": 11,
+        "marca": "APPLE",
+        "imagen": "img/img-productos/apple3.jpg",
+        "precio": "4900",
+        "detalles": ["8 GB RAM", "COLOR DORADO", "1 TERA HDD"]
+
+    }, {
+        "id": 12,
+        "marca": "HUAWEI",
+        "imagen": "img/img-productos/huawei2.jpg",
+        "precio": "1769",
+        "detalles": ["4 GB RAM", "COLOR GRIS", "500 GB HDD"]
+    }, {
+        "id": 13,
+        "marca": "HUAWEI",
+        "imagen": "img/img-productos/huawei4.jpg",
+        "precio": "7569",
+        "detalles": ["16 GB RAM", "COLOR DORADO", "256 GB HDD"]
+    }, {
+        "id": 14,
+        "marca": "HUAWEI",
+        "imagen": "img/img-productos/huawei.jpg",
+        "precio": "6769",
+        "detalles": ["8 GB RAM", "COLOR GRIS", "256 GB HDD"]
+
+    }, {
+        "id": 15,
+        "marca": "LENOVO",
+        "imagen": "img/img-productos/lenovo2.jpg",
+        "precio": "2600",
+        "detalles": ["8 GB RAM", "COLOR PLATEADO", "1 TB HDD"]
+    }, {
+        "id": 16,
+        "marca": "DELL",
+        "imagen": "img/img-productos/dell.jpg",
+        "precio": "3000",
+        "detalles": ["8 GB RAM", "COLOR GRIS", "1 TB HDD"],
+        "new": true
+    }, {
+        "id": 17,
+        "marca": "LENOVO",
+        "imagen": "img/img-productos/lenovo.jpg",
+        "precio": "7000",
+        "detalles": ["4 GB RAM", "COLOR PLATEADO", "1 TB HDD"]
+    }, {
+        "id": 18,
+        "marca": "ACER",
+        "imagen": "img/img-productos/acer2.jpg",
+        "precio": "1000",
+        "detalles": ["4 GB RAM", "COLOR AZUL", "1 TB HDD"]
+    }, {
+        "id": 19,
+        "marca": "ACER",
+        "imagen": "img/img-productos/acer.jpg",
+        "precio": "9000",
+        "detalles": ["16 GB RAM", "COLOR NEGRO", "1 TB HDD"]
+    }, {
+        "id": 20,
+        "marca": "ACER",
+        "imagen": "img/img-productos/acer3.jpg",
+        "precio": "5000",
+        "detalles": ["8 GB RAM", "COLOR NEGRO", "1 TB HDD "]
+    }, {
+        "id": 21,
+        "marca": "SAMSUNG",
+        "imagen": "img/img-productos/samsung2.jpg",
+        "precio": "3599",
+        "detalles": ["8 GB RAM", "COLOR PLATEADO", "1 TB SSD"]
+    }, {
+        "id": 22,
+        "marca": "SAMSUNG",
+        "imagen": "img/img-productos/samsung3.jpg",
+        "precio": "1590",
+        "detalles": ["16 GB RAM", "COLOR NEGRO", "1 TB SSD"],
+        "new": true
+    }
+]

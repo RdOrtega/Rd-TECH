@@ -1,0 +1,363 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+    font-family: "Inconsolata";
+    src: url(../fonts/inconsolata.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+
+/* ESTILOS GENERALES */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f7f7f7;
+    scroll-behavior: smooth;
+    font-family: "Inconsolata";
+}
+
+.muestra-img {
+    height: 230px;
+}
+
+.img-min {
+    height: 90px;
+    width: 115px;
+    border-radius: 10%;
+}
+
+.fa-times {
+    color: #f7f7f7;
+}
+
+.fa-times:hover {
+    color: red;
+}
+
+.nombre-producto {
+    color: #f7f7f7;
+    border-radius: 10px;
+    background-color: #0c0c0cec;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon-back {
+    position: absolute;
+    margin: 1% 0 0 1.5%;
+    color: #f7f7f7;
+    font-size: 20px;
+}
+
+.icon-back:hover {
+    color: #ff3300;
+}
+
+.name-productos {
+    font-size: 2rem;
+    color: #F7F7F7;
+    font-family: "Poppins";
+}
+
+header {
+    background-color: #0c0c0cec;
+}
+
+
+/* CAROUSEL */
+
+.carousel-item img {
+    height: 500px;
+}
+
+
+/*  BOOTON DE TOP PIE DE PAGINA */
+
+.btnTop a {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #333;
+    font-family: "Poppins";
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 0px 20px 2px 20px;
+}
+
+.btnTop a:hover {
+    color: #f7f7f7;
+    border: 2px solid #ff3300;
+    background-color: #ff3300;
+}
+
+footer {
+    width: 100%;
+    height: 25px;
+    color: #F7F7F7;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ESTILOS MENU LATERAL - ASIDE*/
+
+.namePage {
+    font-size: 4rem;
+    color: #F7F7F7;
+    font-family: "Poppins";
+}
+
+.pages {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pages a {
+    color: #F7F7F7;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 5px 0px 5px;
+}
+
+.pages a:hover {
+    border-radius: 4px;
+    background-color: #ff3300;
+}
+
+.icoHome {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    font-size: 20px;
+}
+
+
+/* MENU LATERAL CARRITO DE COMPRAS */
+
+#menuCarrito {
+    position: absolute;
+    height: 100vh;
+    z-index: 10;
+    width: 0;
+    top: 0;
+    display: none;
+    opacity: 0;
+    border-radius: 10px;
+    background-color: #0c0c0cd2;
+    transition: all 700ms ease;
+    overflow-y: scroll;
+}
+
+#menuCarrito.active {
+    right: 0;
+    opacity: 1;
+    width: 30%;
+    display: block;
+}
+
+#cerrarCarrito {
+    display: none;
+    z-index: 0;
+    top: 2%;
+    left: 4%;
+    position: relative;
+}
+
+#cerrarCarrito.active {
+    display: block;
+    position: absolute;
+}
+
+
+/* BOTON LOGIN */
+
+.icoLogin {
+    color: #f7f7f7;
+}
+
+.icoLogin:hover {
+    color: #ff3300;
+}
+
+
+/* BOOTON DE BUSQUEDA SERCH*/
+
+#vaciar-carrito {
+    cursor: pointer;
+}
+
+.table {
+    color: #f7f7f7;
+    text-align: center;
+}
+
+
+/* ICONO CARRITO */
+
+.icoCarrito {
+    color: #f7f7f7;
+}
+
+.icoCarrito:hover {
+    color: #ff3300;
+}
+
+
+/* EFECTOS PARA DESAPARECER CONTENIDO EN LA PAGINA HOME */
+
+#about {
+    opacity: 0;
+    transition: all 600ms ease-in;
+}
+
+#about.visible {
+    opacity: 1;
+}
+
+#carouselExampleDark {
+    opacity: 0;
+    transition: all 600ms ease-in;
+}
+
+#carouselExampleDark.visible {
+    opacity: 1;
+}
+
+
+/* ESTILOS ADBOUT US - TIENDA */
+
+#us {
+    color: #ff3300;
+    padding: 1% 3px 1px 3px;
+    border-radius: 4px;
+    margin: 3% 0% 3% 0%;
+    border: 2px solid #333;
+    background-color: rgba(128, 127, 127, 0.192);
+    opacity: 0;
+    transition: all 700ms ease;
+}
+
+#us.visible {
+    opacity: 1;
+}
+
+
+/* ESTILOS IMAGENES - SOBRENOSOTROS */
+
+.editor-item {
+    width: 48%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+
+/*IMAGENES DE ABOUT */
+
+.editor {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.editor-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.editor-circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ff3300;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -200px;
+    right: -150px;
+    color: #333;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-right: 50px;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.editor-item:hover .editor-circle {
+    transform: scale(1.2);
+    bottom: -90px;
+    right: -50px;
+}
+
+.editor-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.editor-item:hover:before {
+    opacity: 1;
+}
+
+
+/* MUESTRAS DE PRODUCTOS */
+
+.ofertaEnvioGratis {
+    background: radial-gradient(circle, rgba(255, 7, 7, 0.808) 20%, #FF4E00 100%);
+}
+
+.titulo-productos {
+    color: #F7F7F7;
+    border-radius: 4px;
+    background-color: #ff3300;
+}
+
+.producto {
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.product-title {
+    text-align: center;
+}
+
+.producto-precio {
+    color: #ff3300;
+    font-weight: bold;
+}
+
+.producto img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto-icon {
+    font-size: 15px;
+    margin-top: 8px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Rd-web-.png">
+    <title>Rd~TECH | MARCAS</title>
+</head>
+
+<body>
+    <header class="conteiner-fluid pb-2">
+
+        <section class="text-center ofertaEnvioGratis">
+            <a href="#promo" class="text-light">ENVIO GRATIS A NIVEL NACIONAL EN REFERENCIAS SELECCIONADAS :)</a>
+        </section>
+
+        <a href="index.html" class="icon-back"><i class="fa fa-undo" aria-hidden="true"></i> HOME</a>
+
+        <div class=" mx-auto text-center">
+
+            <div class="icoHome">
+                <a class="icoLogin me-4" href="compra.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+
+                <a id="abrirCarrito" href="" class="icoCarrito"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></a>
+            </div>
+
+            <div class="col-6 mx-auto text-center">
+                <h1 class="name-productos">PRODUCTOS</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- MENU CARRITO -->
+    <aside id="menuCarrito" class="container-fluid text-light">
+
+        <button id="cerrarCarrito" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+
+        <section>
+            <h2 class="text-center mt-4">CARRITO</h2>
+
+            <div id="carrito" class="mt-3 text-center mb-4">
+
+                <table id="lista-carrito" class="table">
+                    <thead>
+                        <tr>
+                            <th>Figura</th>
+                            <th>Marca</th>
+                            <th>Valor</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar!</a>
+                <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Finalizar Compra</a>
+            </div>
+        </section>
+    </aside>
+
+
+    <main id="lista-productos" class="mt-2 container-fluid">
+
+        <section class="row mb-5">
+
+            <div id="lista-marcas" class="row mb-4">
+
+                <template id="template-productos">
+
+                <figure class="container-productos col-10 col-md-3 mx-auto mb-2 mt-4">
+
+                    <div class="producto">
+                        <h4 class="nombre-producto"> nombre</h4>
+                        <img src="" class="img-fluid muestra-img" alt="... ">
+                        <div class="producto-title">
+                            <span>descripcion</span>
+                            <p class="producto-precio ">Valor: $<span>precio</span> COP</p>
+                            <button type="button" class="btn btn-outline-success agregar-carrito">Agg a Carrito</button>
+                        </div>
+                    </div>
+                </figure>
+            </template>
+            </div>
+        </section>
+    </main>
+    <script src="js/carrito.js"></script>
+    <script src="js/pedido.js"></script>
+    <script src="js/menu-aside.js"></script>
+    <script src="https://kit.fontawesome.com/712575d4a5.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous ">
+    </script>
+    <script src="js/sweetalert2.min.js"></script>
+</body>
+
+</html>

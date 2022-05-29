@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/Rd-web-.png">
+    <title>Rd~TECH | HOME</title>
+</head>
+
+<body>
+    <header class="conteiner-fluid pb-2">
+
+        <section class="text-center ofertaEnvioGratis">
+            <a href="#promo" class="text-light">ENVIO GRATIS A NIVEL NACIONAL EN REFERENCIAS SELECCIONADAS :)</a>
+        </section>
+        <div class=" mx-auto text-center">
+
+            <div class="icoHome">
+                <a class="icoLogin me-4" href="compra.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+
+                <a id="abrirCarrito" href="" class="icoCarrito"><i class="fa fa-shopping-cart"
+                        aria-hidden="true"></i></a>
+            </div>
+
+            <div class="col-6 mx-auto text-center">
+                <h1 class="namePage">Rd~TECH</h1>
+                <hr class="bg-light">
+            </div>
+
+            <div class="mx-auto ">
+                <div class="col-6 mx-auto pages">
+                    <a href="productos.html">Marcas</a>
+                    <a href="#lista-productos">Tendencias</a>
+                    <a href="#us">Nuestra Tienda</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BARRA DE MENU-LATERAL CARRITO - ASIDE-->
+
+    <aside id="menuCarrito" class="container-fluid text-light">
+
+        <button id="cerrarCarrito" type="button" class="btn-close btn-close-white" aria-label="Close"></button>
+
+        <section>
+            <h2 class="text-center mt-4">CARRITO</h2>
+
+            <div id="carrito" class="mt-3 text-center mb-4">
+
+                <table id="lista-carrito" class="table">
+                    <thead>
+                        <tr>
+                            <th>Figura</th>
+                            <th>Marca</th>
+                            <th>Valor</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+                <a href="#" id="vaciar-carrito" class="btn btn-primary btn-block">Vaciar!</a>
+                <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Finalizar Compra</a>
+            </div>
+        </section>
+    </aside>
+
+    <!-- CUERPO DE PAGINA - CAROUSEL -->
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mb-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="https://scontent.fbaq8-1.fna.fbcdn.net/v/t31.18172-8/12486012_10153530130109635_7349161020021752096_o.jpg?_nc_cat=102&ccb=1-5&_nc_sid=19026a&_nc_ohc=o92IOKsD2ysAX9sKqp5&_nc_ht=scontent.fbaq8-1.fna&oh=00_AT9EXNpbhf23BHjvW5nL1ovKahIa0BfCj716YOPDgHWxNg&oe=628C7D9A"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p class="text-light">MIRA LA NUEVA LENOVO JOGA CON MULTIPLES POSICIONES Y MAYOR ALMACENAMIENTO</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://scontent.fbaq8-1.fna.fbcdn.net/v/t1.6435-9/85023487_3572270319513613_5570239718651592704_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=e3f864&_nc_ohc=mKPlM40ef3kAX8dqs76&tn=6xtoe0l_SVMUl83-&_nc_ht=scontent.fbaq8-1.fna&oh=00_AT8U9Hi2EBfy2r2JDud74kfnDvNoIg_u-_tZWXUvoO7Pzg&oe=628CB8FD"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p class="text-light">QUE EXPLOTE TU IMAGINACION CON LA NUEVA ASUS CON TABLET INTEGRADA</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://scontent.fbaq8-1.fna.fbcdn.net/v/t1.6435-9/124357234_3632839156808663_8962835993270965164_n.png?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=MNz6sczmzp0AX9vEBZB&_nc_ht=scontent.fbaq8-1.fna&oh=00_AT_JLuJyU6doCZldcEvF1aIbjVE1giow7ut-tJ3ACZmDyA&oe=628C814E"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <p class="text-light">NUEVO MAC-BOOK PRO, CON DISENO SUPER SLIM Y PANTALLA CON MENOS BORDES</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- PRODUCTOS -->
+
+    <main id="lista-productos" class="mb-4 container-fluid">
+
+        <!-- MUESTRAS NUEVA COLECCION -->
+
+        <div class="col-5 text-center mx-auto titulo-productos mb-3">
+            <h2>NUEVA COLECCION</h2>
+        </div>
+
+        <section id="lista-tendencias" class="row mb-4">
+
+            <template id="template-productos">
+
+                <figure class="container-productos col-10 col-md-3 mx-auto mb-2 mt-4">
+
+                    <div class="producto">
+                        <h4 class="nombre-producto"> nombre</h4>
+                        <img src="" class="img-fluid muestra-img" alt="... ">
+                        <div class="producto-title">
+                            <span>descripcion</span>
+                            <p class="producto-precio ">Valor: $<span>precio</span> COP</p>
+                            <button type="button" class="btn btn-outline-success agregar-carrito">Agg a Carrito</button>
+                        </div>
+                    </div>
+                </figure>
+            </template>
+        </section>
+    </main>
+
+
+    <!-- NUESTRA TIENDA -->
+
+    <section id="us" class="col-11 mx-auto ">
+
+        <div class="col-5 text-center mb-3 mx-auto tituloForm ">
+            <h2>NUESTRA TIENDA</h2>
+        </div>
+
+        <section class="container-fluid mx-3">
+            <p class="text-dark">Hola! somos Rd~TECH; Una tienda calificada, donde podras obtener los mejores portatiles del momento, aqui hay una variedad de productos, marcas con las mejores especificaciones para que puedas realizar tus tareas y cumplir tus metas. Tenemos
+                escolares, para tu trabajo en oficina, para videojuegos(GAMER), entre otras referencias.<br>puedes echarle un vistazo a la seccion <a href="#lista-productos" class="text-danger">Tendencias</a> donde encontraras nuestra seccion de new prodcutos!,
+                obten beneficios por compras premium, tambien tenemosenvio gratis en algunas referencias.. <br> mira el carousel, donde encontraras algunas de las nuevas series de laptops, solo del momento!..
+                <br> Nuestros servicion online se basan contraentrega, no se te olvid e completar los dato del formulario para que pueda llegar tu pedido a su destino.<br> caulquier duda o inquietud, no dudes en hacernolos saber por medio del email, con
+                gusto los tomaremos.. Tambien puedes encontrarnos enla ciudad de medellin, estamos hubicados en la calle 23 #23-15 centro, alli estan nuestras acesoras quieneste recibiran con mucha atencion.
+            </p>
+        </section>
+
+        <div class="conteienerfluid">
+
+            <div class="editor ">
+                <div class="editor-item ">
+                    <img src="https://www.mbanews.com.au/wp-content/uploads/2015/11/Screen-Shot-2017-03-21-at-5.36.11-PM_696x325.jpg " alt=" " class="editor-img img-fluid ">
+                    <p class="editor-circle ">Nuestra Sede!</p>
+                </div>
+                <div class="editor-item ">
+                    <img src="https://winbuzzer.com/wp-content/uploads/2016/07/Microsoft-Surface-wikimedia.jpg " alt=" " class="editor-img img-fluid ">
+                    <p class="editor-circle ">Exhibición de productos!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOTON RETORNAR TOP -->
+    <div class="btnTop text-center mb-2 ">
+        <a href="#top ">Top</a>
+    </div>
+
+    <!--  FOOTER -->
+    <footer class="text-center ">
+        <p>By: Rd.Trip web © 2022 | Copyright: ALL RIGHTS RESERVED</p>
+    </footer>
+
+
+
+    <script src="js/carrito.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/menu-aside.js"></script>
+    <script src="https://kit.fontawesome.com/712575d4a5.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous ">
+    </script>
+    <script src="js/sweetalert2.min.js"></script>
+
+</html>
+
+</html>
